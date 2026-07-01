@@ -1,0 +1,2 @@
+<?php
+ declare(strict_types=1); namespace tapmeppe\composer\helpers; class Summons { public static function start() { \WP_CLI::add_command('governance', function (array $arguments) { $summon = array_shift($arguments); require_once TAPMEPPE_SOURCE . "/summons/$summon.php"; $summon = "\\tapmeppe\\composer\\summons\\" . str_replace('/', "\\", $summon); (new $summon())->process($arguments); }); } } 

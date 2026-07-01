@@ -1,0 +1,2 @@
+<?php
+ define('WP_CLI', true); class WP_CLI { static function add_command(): void { } static function error(string $message): void { echo "ERROR -- $message\n"; } static function log(string $message): void { echo "$message\n"; } static function runcommand(): void { } static function success(string $message): void { echo "SUCCESS -- $message\n"; } } 

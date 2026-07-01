@@ -1,0 +1,2 @@
+<?php
+ declare(strict_types=1); namespace tapmeppe\composer\routes; use WP_REST_Request; use WP_REST_Response; class Zyxw extends \tapmeppe\composer\helpers\Route { protected string $route = 'zyxw'; function get(WP_REST_Request $request): WP_REST_Response { return new WP_REST_Response(['status' => 'Governance Extension Active']); } } 

@@ -1,0 +1,2 @@
+<?php
+ declare(strict_types=1); namespace tapmeppe\composer\helpers; use tapmeppe\composer\blueprint\Utilities; abstract class Summon { protected string $identifier; function __construct() { $this->identifier = Utilities::getClassIdentifier($this); echo "===\n'$this->identifier' has been summoned.\n===" . PHP_EOL; } function process(array $arguments) { echo __METHOD__ . ' is not implemented.' . PHP_EOL; print_r($arguments); } } 

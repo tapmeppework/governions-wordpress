@@ -1,0 +1,2 @@
+<?php
+ declare(strict_types=1); namespace tapmeppe\composer\summons; class Abcd extends \tapmeppe\composer\helpers\Summon { function process(array $arguments) { echo 'Abcd' . PHP_EOL; print_r($arguments); } } 

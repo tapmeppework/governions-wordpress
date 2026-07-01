@@ -1,0 +1,2 @@
+<?php
+ declare(strict_types=1); namespace tapmeppe\composer\helpers; use tapmeppe\composer\routes\Zyxw; class Routes { static function start() { add_filter('rest_api_init', function () { new Zyxw(); }); } } 

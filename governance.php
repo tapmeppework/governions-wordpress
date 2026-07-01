@@ -1,0 +1,2 @@
+<?php
+ declare(strict_types=1); namespace tapmeppe\composer; use tapmeppe\composer\blueprint\{Administration}; use tapmeppe\composer\helpers\{Routes, Views, Summons}; require_once __DIR__ . '/vendor/autoload.php'; Administration::abcd(); if (defined('WP_CLI')) Summons::start(); else { Routes::start(); Views::start(__FILE__); } 
