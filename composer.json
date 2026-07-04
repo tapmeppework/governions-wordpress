@@ -1,7 +1,7 @@
 {
 	"name": "tapmeppe/governance",
 	"description": "The tapmeppe extension for the governance⚙️ tools based on WordPress.",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"type": "library",
 	"license": "GPL-3.0-or-later",
 	"homepage": "https://tapmeppe.work/solutions/governance/",
@@ -54,7 +54,7 @@
 		]
 	},
 	"tapmeppe": {
-		"timestamp": "2026-07-03T11:30:26.165Z",
+		"timestamp": "2026-07-04T07:21:01.554Z",
 		"deployment": ""
 	}
 }
